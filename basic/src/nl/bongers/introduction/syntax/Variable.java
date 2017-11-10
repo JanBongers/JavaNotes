@@ -5,6 +5,14 @@ public class Variable {
     /**
      * Variable gives the ability to store and manipulate values. A variable is simply a named data storage.
      * Since Java is a strongly types language, one must always declare the data type of a variable.
+     *
+     * Convention of naming variables:
+     *
+     *  - Only letters and numbers are used
+     *  - Use of Camel Case with multi-word variables:
+     *      * First letter lower case
+     *      * Each following word starts with an upper case as the first letter
+     *      * e.g.: accountBalance
      */
     public static void main(String[] args) {
 
@@ -24,14 +32,4 @@ public class Variable {
         value = 10;
         System.out.println("Value of 'value' after modifying: " + value);
     }
-
-    /*
-    Convention of naming variables:
-
-    - Only letters and numbers are used
-    - Use of Camel Case with multi-word variables:
-        * First letter lower case
-        * Each following word starts with an upper case as the first letter
-        * e.g.: accountBalance
-     */
 }
