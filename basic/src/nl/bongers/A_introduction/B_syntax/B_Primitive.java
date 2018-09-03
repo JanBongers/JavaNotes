@@ -1,6 +1,6 @@
-package nl.bongers.introduction.syntax;
+package nl.bongers.A_introduction.B_syntax;
 
-public class Primitive {
+public class B_Primitive {
 
     /**
      * Primitive data types are the foundation of all other types. All primitive types are stored by value.

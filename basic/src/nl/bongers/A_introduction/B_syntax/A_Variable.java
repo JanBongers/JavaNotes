@@ -1,6 +1,6 @@
-package nl.bongers.introduction.syntax;
+package nl.bongers.A_introduction.B_syntax;
 
-public class Variable {
+public class A_Variable {
 
     /**
      * Variable gives the ability to store and manipulate values. A variable is simply a named data storage.

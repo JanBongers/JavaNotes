@@ -15,7 +15,7 @@ public class FirstRunnable {
         //Runs in the thread as specified with Runnable
         thread.start();
 
-        //Runs in the main thread
+        //Runs in the main thread / current thread
         thread.run();
     }
 }

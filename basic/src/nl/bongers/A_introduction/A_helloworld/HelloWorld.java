@@ -1,4 +1,4 @@
-package nl.bongers.introduction.helloworld;
+package nl.bongers.A_introduction.A_helloworld;
 
 public class HelloWorld {
 

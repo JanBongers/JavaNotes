@@ -15,6 +15,10 @@ class LongWrapper {
     }
 
     void incrementValue() {
+        value = value + 1;
+    }
+
+    void incrementValueSynchronized() {
         //Only executes the code inside the synchronized block if no other thread holds the key
         synchronized (key) {
             value = value + 1;

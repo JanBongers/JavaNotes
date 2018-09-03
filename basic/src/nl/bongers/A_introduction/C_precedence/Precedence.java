@@ -1,4 +1,4 @@
-package nl.bongers.introduction.precedence;
+package nl.bongers.A_introduction.C_precedence;
 
 public class Precedence {
 

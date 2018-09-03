@@ -1,6 +1,6 @@
-package nl.bongers.introduction.syntax;
+package nl.bongers.A_introduction.B_syntax;
 
-public class ArithmeticOperator {
+public class C_ArithmeticOperator {
 
     /**
      * Java provides three basic categories of operators for performing math operations:
@@ -51,22 +51,27 @@ public class ArithmeticOperator {
         System.out.println("Add");
         System.out.println(1 + 2);
         System.out.println(1.0 + 2.0);
+        System.out.println();
 
         System.out.println("Subtract");
         System.out.println(5 - 4);
         System.out.println(5.0 - 4.0);
+        System.out.println();
 
         System.out.println("Multiply");
         System.out.println(4 * 2);
         System.out.println(4.0 * 2.0);
+        System.out.println();
 
         System.out.println("Divide");
         System.out.println(13 / 5);
         System.out.println(13.0 / 5.0);
+        System.out.println();
 
         System.out.println("Modulus");
         System.out.println(13 % 5);
         System.out.println(13.0 % 5.0);
+        System.out.println();
     }
 
     /**
@@ -88,6 +93,8 @@ public class ArithmeticOperator {
         int otherVal = 5;
         System.out.println(otherVal++);
         System.out.println(otherVal);
+
+        System.out.println();
     }
 
     /**
@@ -113,5 +120,7 @@ public class ArithmeticOperator {
         int val2 = 10;
         result /= val1 * val2;
         System.out.println(result);
+
+        System.out.println();
     }
 }
