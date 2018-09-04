@@ -23,13 +23,9 @@ public class C_IfElseStatement {
      */
     public static void main(String[] args) {
         ifStatement();
-
         ifElseStatement();
-
         chainingStatements();
-
         nestedStatements();
-
         variableScope();
     }
 
@@ -39,8 +35,8 @@ public class C_IfElseStatement {
     private static void ifStatement() {
         System.out.println("If statement");
 
-        final int v1 = 10;
-        final int v2 = 20;
+        int v1 = 10;
+        int v2 = 20;
 
         if (v1 < v2) {
             System.out.println("The condition of the IF statement is true. This will be printed");
@@ -59,8 +55,8 @@ public class C_IfElseStatement {
     private static void ifElseStatement() {
         System.out.println("If-else statement");
 
-        final int v1 = 20;
-        final int v2 = 30;
+        int v1 = 20;
+        int v2 = 30;
 
         if (v1 > v2) {
             System.out.println("The condition of the IF statement is false. This will not be printed");
@@ -93,8 +89,8 @@ public class C_IfElseStatement {
     private static void chainingStatements() {
         System.out.println("Chaining statements");
 
-        final int v1 = 10;
-        final int v2 = 40;
+        int v1 = 10;
+        int v2 = 40;
 
         if (v1 > v2) {
             System.out.println("This condition is evaluated first. Since the result is false, this will not be printed");
@@ -114,7 +110,7 @@ public class C_IfElseStatement {
     private static void nestedStatements() {
         System.out.println("Nested statements");
 
-        final int v1 = 20;
+        int v1 = 20;
 
         if (v1 > 5) { //first evaluation
             if (v1 > 10) { //Will be executed as the true-statement of 'first evaluation'
@@ -142,11 +138,11 @@ public class C_IfElseStatement {
     private static void variableScope() {
         System.out.println("Variable scope");
 
-        final float devices = 30.0f;
-        final float rooms = 4.0f;
+        float devices = 30.0f;
+        float rooms = 4.0f;
 
         if (rooms > 0.0) {
-            final float avg = devices / rooms;
+            float avg = devices / rooms;
             System.out.println(avg);
         }
         //We can not print avg here since it is outside of the statement block. The variable 'avg' simply does not exist here

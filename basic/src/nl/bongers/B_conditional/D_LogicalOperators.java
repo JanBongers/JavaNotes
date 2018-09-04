@@ -53,7 +53,7 @@ public class D_LogicalOperators {
     private static void andOperator() {
         System.out.println("AND logical operator");
 
-        final int a = 20, b = 14, c = 5;
+        int a = 20, b = 14, c = 5;
         if (a > b & b > c) {
             System.out.println("a is greater than b AND b is greater than c. This will be printed");
         }
@@ -71,7 +71,7 @@ public class D_LogicalOperators {
     private static void orOperator() {
         System.out.println("OR logical operator");
 
-        final int a = 20, b = 14, c = 5;
+        int a = 20, b = 14, c = 5;
         if (a > b | b > c) {
             System.out.println("a is greater than b OR b is greater than c. This will be printed");
         }
@@ -89,7 +89,7 @@ public class D_LogicalOperators {
     private static void exclusiveOrOperator() {
         System.out.println("Exclusive OR logical operator");
 
-        final int a = 20, b = 14, c = 5;
+        int a = 20, b = 14, c = 5;
         if (a > b ^ b > c) {
             System.out.println("a is greater than b, but b is also greater than c. This will not be printed");
         }
@@ -103,8 +103,8 @@ public class D_LogicalOperators {
 
     private static void negationOperator() {
         System.out.println("Negation logical operator");
-        final boolean visible = false;
-        final boolean finished = true;
+        boolean visible = false;
+        boolean finished = true;
 
         if (!visible) { //Reversed result. visible is false, the NOT of false, is true. Statement is true
             System.out.println("Boolean is indeed NOT true");

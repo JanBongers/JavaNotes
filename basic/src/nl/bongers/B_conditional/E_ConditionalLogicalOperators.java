@@ -39,7 +39,7 @@ public class E_ConditionalLogicalOperators {
     private static void conditionalAndOperator() {
         System.out.println("Conditional AND logical operator");
 
-        final int a = 20, b = 14, c = 5;
+        int a = 20, b = 14, c = 5;
         if (a > b && b > c) {
             System.out.println("Both sides are executed. This will be printed");
         }
@@ -54,7 +54,7 @@ public class E_ConditionalLogicalOperators {
     private static void conditionalOrOperator() {
         System.out.println("OR logical operator");
 
-        final int a = 20, b = 14, c = 5;
+        int a = 20, b = 14, c = 5;
         if (a > b || b > c) {
             System.out.println("Only the left side is executed. Since is is true and an OR statement, it is not needed to execute the right side");
         }
