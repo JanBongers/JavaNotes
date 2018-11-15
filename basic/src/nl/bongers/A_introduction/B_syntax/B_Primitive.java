@@ -23,25 +23,25 @@ public class B_Primitive {
      * the range of values that can be stored by the specified type.
      *
      * byte
-     *  - size: 8 bits
+     *  - size: 8 bits - 1 byte
      *  - min value: -128
      *  - max value: 127
      *  - Literal format: 0
      *
      * short
-     *  - size: 16 bits
+     *  - size: 16 bits - 2 bytes
      *  - min value: -32768
      *  - max value: 32767
      *  - Literal format: 0
      *
      * int
-     *  - size: 32 bits
+     *  - size: 32 bits - 4 bytes
      *  - min value: -2147483648
      *  - max value: 2147483647
      *  - Literal format: 0
      *
      * long
-     *  - size: 64 bits
+     *  - size: 64 bits - 8 bytes
      *  - min value: -9223372036854775808
      *  - max value: 9223372036854775807
      *  - Literal format: 0L
@@ -61,13 +61,13 @@ public class B_Primitive {
      * negative and zero values.
      *
      * float
-     *  - Size: 32 bits
+     *  - Size: 32 bits - 4 bytes
      *  - Smallest positive value: 1.4*10^-45
      *  - Largest positive value: 3.4*10^38
      *  - Literal format: 0.0f
      *
      * double
-     *  - Size: 64 bits
+     *  - Size: 64 bits - 8 bytes
      *  - Smallest positive value: 4.9*10^-324
      *  - Largest positive value: 1.7*10^308
      *  - Literal format: 0.0 or 0.0d

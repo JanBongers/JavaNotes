@@ -2,7 +2,7 @@
 
 > A Quick guide and reference project for the Java language
 
-All classes in packages [basic], [intermediate] and [expert] are notes of things learned (thus far). Other packages contains tips and tricks / code that's handy to have around for reference.
+All classes in packages [basic], [intermediate] and [expert] are notes of the Java language. Other packages contains tips and tricks / code that's handy to have around for reference.
 
 Notes in [basic], [intermediate] and [expert] can be used to get a better understanding of the Java language. Logical order of reading:
 
@@ -32,6 +32,10 @@ Notes in [basic], [intermediate] and [expert] can be used to get a better unders
     * Array
     * ForEachLoop
     * SwitchStatement
+    * ArrayCalculator
+    
+- Basic - classes
+    * Classes
           
 - Intermediate - concurrency
     * Runnable
